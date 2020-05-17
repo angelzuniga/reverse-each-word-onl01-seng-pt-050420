@@ -1,3 +1,4 @@
 def reverse_each_word(phrase)
-  phrase.map.reverse
+  phrase.each do |word|
+    puts phrase
 end
